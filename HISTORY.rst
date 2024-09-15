@@ -3,6 +3,21 @@
 History
 -------
 
+3.10 (2024-09-15)
++++++++++++++++++
+
+- Reverted to Unicode 15.1.0 data. Unicode 16 has some significant changes
+  to UTS46 processing that will require more work to properly implement.
+
+3.9 (2024-09-13)
+++++++++++++++++
+
+- Update to Unicode 16.0.0
+- Deprecate setup.cfg in favour of pyproject.toml
+- Use ruff for code formatting
+
+Thanks to Waket Zheng for contributions to this release.
+
 3.8 (2024-08-23)
 ++++++++++++++++
 
